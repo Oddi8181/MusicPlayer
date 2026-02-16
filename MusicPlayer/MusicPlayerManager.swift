@@ -56,7 +56,7 @@ final class MusicPlayerManager : ObservableObject {
     
     private func startTimer(){
         stopTimer()
-        timer = Timer.scheduledTimer(timeInterval: 0.25, repeats: true){
+        timer = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true){
             [weak self] _ in guard let self, let player = self.player else {return}
             self.currentTime = player.currentTime
             self.duration = player.duration
