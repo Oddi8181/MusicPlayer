@@ -33,14 +33,52 @@
 		EA13EBF02F4337C900ADA27F /* Exceptions for "MusicPlayer" folder in "MusicPlayerTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Audio/CENTRAL CEE FT. LIL BABY - BAND4BAND (MUSIC VIDEO).mp3",
+				"Audio/Copyright Free Tropical Music - Nightfall by Roa.mp3",
+				"Audio/Crickets (Awkward Silence) - Sound Effect (HD).mp3",
+				"Audio/DaBaby - BOP on Broadway (Hip Hop Musical).mp3",
+				"Audio/DJ Snake, Lil Jon - Turn Down for What.mp3",
+				"Audio/DMX - X Gon' Give It To Ya.mp3",
+				"Audio/ElevenLabs_2025-07-13T11_06_31_Brian_pre_sp100_s50_sb75_v3.mp3",
+				"Audio/ElevenLabs_2025-07-13T11_20_01_Brian_pre_sp100_s50_sb75_v3.mp3",
+				"Audio/GZUZ - KEINER KANN MICH FICKEN!.mp3",
+				"Audio/Hans Zimmer - Time (Official Audio).mp3",
+				"Audio/Heart of a Champion (Clean).mp3",
+				"Audio/Imagine Dragons - Believer (Lyrics).mp3",
+				"Audio/Joakim Karud - Road Trip  Travel Vlog Background Music  Vlog No Copyright Music  Free To Use.mp3",
+				"Audio/Lil Nas X - Industry Baby (Lyrics) ft. Jack Harlow.mp3",
+				"Audio/Pump Up The Jam (NightFunk Remix).mp3",
+				"Audio/RISE (ft. The Glitch Mob, Mako, and The Word Alive)  Worlds 2018 - League of Legends.mp3",
+				"Audio/Run! - Sound Effect [Perfect Cut].mp3",
 				Audio/Song.mp3,
+				"Audio/Swish, Swoosh, Cutscene Sound Effect.mp3",
+				"Audio/The Score - Legend (Audio).mp3",
 			);
 			target = EA5927E02E9110050005D894 /* MusicPlayerTests */;
 		};
 		EA13EBF12F4337C900ADA27F /* Exceptions for "MusicPlayer" folder in "MusicPlayerUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Audio/CENTRAL CEE FT. LIL BABY - BAND4BAND (MUSIC VIDEO).mp3",
+				"Audio/Copyright Free Tropical Music - Nightfall by Roa.mp3",
+				"Audio/Crickets (Awkward Silence) - Sound Effect (HD).mp3",
+				"Audio/DaBaby - BOP on Broadway (Hip Hop Musical).mp3",
+				"Audio/DJ Snake, Lil Jon - Turn Down for What.mp3",
+				"Audio/DMX - X Gon' Give It To Ya.mp3",
+				"Audio/ElevenLabs_2025-07-13T11_06_31_Brian_pre_sp100_s50_sb75_v3.mp3",
+				"Audio/ElevenLabs_2025-07-13T11_20_01_Brian_pre_sp100_s50_sb75_v3.mp3",
+				"Audio/GZUZ - KEINER KANN MICH FICKEN!.mp3",
+				"Audio/Hans Zimmer - Time (Official Audio).mp3",
+				"Audio/Heart of a Champion (Clean).mp3",
+				"Audio/Imagine Dragons - Believer (Lyrics).mp3",
+				"Audio/Joakim Karud - Road Trip  Travel Vlog Background Music  Vlog No Copyright Music  Free To Use.mp3",
+				"Audio/Lil Nas X - Industry Baby (Lyrics) ft. Jack Harlow.mp3",
+				"Audio/Pump Up The Jam (NightFunk Remix).mp3",
+				"Audio/RISE (ft. The Glitch Mob, Mako, and The Word Alive)  Worlds 2018 - League of Legends.mp3",
+				"Audio/Run! - Sound Effect [Perfect Cut].mp3",
 				Audio/Song.mp3,
+				"Audio/Swish, Swoosh, Cutscene Sound Effect.mp3",
+				"Audio/The Score - Legend (Audio).mp3",
 			);
 			target = EA5927EA2E9110050005D894 /* MusicPlayerUITests */;
 		};

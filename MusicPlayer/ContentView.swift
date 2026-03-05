@@ -55,6 +55,8 @@ struct ContentView: View {
                 .foregroundStyle(audio.isPlaying ? .green : .secondary)
             
             Spacer()
+
+            
         }
         .padding()
         .onAppear {
