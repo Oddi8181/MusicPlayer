@@ -7,7 +7,8 @@ final class MusicPlayerManager : ObservableObject {
     @Published private(set) var isPlaying: Bool = false;
     @Published private(set) var duration: TimeInterval = 0.0;
     @Published private(set) var currentTime: TimeInterval = 0.0;
-    
+    @Published private(set) var currentSong: Song? = nil;
+    @Published private(set) var songs: [Song] = []
     
     private var player: AVAudioPlayer?
     private var timer: Timer?
@@ -33,6 +34,7 @@ final class MusicPlayerManager : ObservableObject {
         isPlaying = true
         startTimer()
     }
+
     
     func pause(){
         player?.pause()
@@ -54,6 +56,23 @@ final class MusicPlayerManager : ObservableObject {
         currentTime = time
     }
     
+    func loadAndPlay(song: Song){
+        currentSong = song;
+        loadBundledFile(named: song.filename, ext: "mp3")
+        play()
+    }
+    func mockSongs() -> [Song] {
+        return [
+            Song(title: "Bohemian Rhapsody", artist: "Queen",       filename: "bohemian_rhapsody"),
+            Song(title: "Hotel California",  artist: "Eagles",      filename: "hotel_california"),
+            Song(title: "Stairway to Heaven",artist: "Led Zeppelin",filename: "stairway_to_heaven"),
+        ]
+    }
+    func loadSongs(){
+        songs = mockSongs()
+        //songs = loadSongsFromBundle()
+    }
+    
     private func startTimer(){
         stopTimer()
         timer = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true){
@@ -71,4 +90,6 @@ final class MusicPlayerManager : ObservableObject {
         timer?.invalidate()
         timer = nil
     }
+    
+    
 }
